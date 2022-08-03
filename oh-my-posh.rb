@@ -12,7 +12,7 @@ class OhMyPosh < Formula
   def install
     Dir.chdir("src") do
       ENV["GOPROXY"] = ENV.has_key?("HOMEBREW_GOPROXY") ? ENV["HOMEBREW_GOPROXY"] : ""
-      system("go build -o=oh-my-posh -ldflags=\"-s -w -X \'main.Version=8.26.1\'\"")
+      system("go build -o=oh-my-posh -ldflags=\"-s -w -X \'main.Version=1.0.0\'\"")
       bin.install "oh-my-posh"
     end
     mv "themes", prefix
