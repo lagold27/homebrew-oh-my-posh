@@ -3,7 +3,7 @@ class OhMyPosh < Formula
   homepage "https://ohmyposh.dev"
   url "https://github.com/lagold27/oh-my-posh/archive/v1.0.0.tar.gz"
   head "https://github.com/lagold27/oh-my-posh.git", branch: "main"
-  sha256 "e4930f01ac4e1bf5769399b7300fd9029a48607737a56071f6109655a6e4a792"
+  sha256 "4b7fe487003e07a18c3fe42c09978efd0a1c3d859454f6097d2db957d0fea178"
   license "MIT"
   version "1.0.0"
 
