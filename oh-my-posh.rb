@@ -1,11 +1,11 @@
 class OhMyPosh < Formula
   desc "Prompt theme engine for any shell"
   homepage "https://ohmyposh.dev"
-  url "https://github.com/JanDeDobbeleer/oh-my-posh/archive/v8.26.1.tar.gz"
-  head "https://github.com/JanDeDobbeleer/oh-my-posh.git", branch: "main"
+  url "https://github.com/lagold27/oh-my-posh/archive/v1.0.0.tar.gz"
+  head "https://github.com/lagold27/oh-my-posh.git", branch: "main"
   sha256 "e4930f01ac4e1bf5769399b7300fd9029a48607737a56071f6109655a6e4a792"
   license "MIT"
-  version "8.26.1"
+  version "1.0.0"
 
   depends_on "go@1.18" => :build
 
