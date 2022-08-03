@@ -24,7 +24,7 @@ jobs:
           appInsights.setup();
 
           clones = await github.rest.repos.getClones({
-            owner: 'jandedobbeleer',
+            owner: 'lagold27',
             repo: 'homebrew-oh-my-posh'
           });
           const isSameDay = (first, second) =>
